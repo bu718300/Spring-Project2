@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+   <typeAliases>
+      <typeAlias type="com.mega.mvcproject2.MessageVO" alias="messageVO"></typeAlias>
+      <typeAlias type="com.mega.mvcproject2.ChartVO" alias="chartVO"></typeAlias>
+   </typeAliases>
+   <mappers>
+      <mapper resource="mapper/messageMapper.xml" />
+      <mapper resource="mapper/chartMapper.xml" />
+   </mappers>
+</configuration>
